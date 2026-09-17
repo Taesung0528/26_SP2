@@ -45,7 +45,7 @@ void pwm() {
 void setup() {
   pinMode(PIN_LED, OUTPUT);
 
-  // 주기 값 변경
+  // 주기 값 변경 직접 입력 필요
   set_period();  
   // set_period(10000);  // 10 ms
   // set_period(1000);  // 1 ms
