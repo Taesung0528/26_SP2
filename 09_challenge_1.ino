@@ -13,7 +13,7 @@
 #define _EMA_ALPHA 0.5
 
 // Change to 3, 10, or 30 for the required screenshots.
-#define N 30
+#define N 3
 #if N < 1
 #error "N must be at least 1"
 #endif
